@@ -1,0 +1,20 @@
+.navigation ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+section{
+  text-align: left;
+  padding: 1em;
+  border: 2px #242424;
+  max-width: 50%;
+}
+
+.workouts{
+  display: grid;
+  grid-template: 12px 12px;
+  grid-gap: 6px;
+  grid-auto-flow: row;
+}
