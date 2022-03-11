@@ -3,18 +3,6 @@ function HomeScreen() {
 
   return (
     <div className="home">
-      <header>
-        <h3>Workout Diary</h3>
-        <nav className="navigation">
-          <ul>
-            <li>Home</li>
-            <li>Library</li>
-            <li>Quickstart</li>
-            <li>Community</li>
-            <li>Profile</li>
-          </ul>
-        </nav>
-      </header>
 
       <section className="welcome-section">
         <h1 className="welcome-message">Welcome Dude</h1>
