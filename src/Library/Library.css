@@ -4,3 +4,28 @@
   flex-wrap: nowrap;
   justify-content: space-evenly;
 }
+
+.exercise{
+  padding: 1em;
+}
+
+.exercise-list{
+  width: 100%;
+}
+
+.exercise .exercise-content{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.exercise-image{
+  order: 0;
+  flex-basis: 20%;
+}
+
+.exercise-content{
+  flex-basis: 80%;
+}

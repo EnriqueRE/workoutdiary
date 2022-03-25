@@ -1,5 +1,19 @@
-import './Library.css';
-function Library() { 
+import "./Library.css";
+import Program  from "./Program/Program";
+function Library() {
+
+  let prog = {
+    id: 1,
+    name: "Tetris Program",
+    description:
+      "Basic training program created for getting measurable and constant improvements. this is a highly customizable workout",
+    schedule: {
+      active: "Monday, Tuesday, Thursday, Friday",
+      rest: "Wednesday, Saturday, Sunday",
+    },
+    equipment: ['Kettlebells', 'Mace']
+  };
+
   return (
     <div className="library">
       <ul className="workouts-list">
@@ -10,16 +24,11 @@ function Library() {
         <li>Mace</li>
       </ul>
 
-      <ul>
-        <li>
-          <h3>Tetris program</h3>
-          <h4>Description</h4>
-        </li>
-
-      </ul>
-
+      <section>
+        <Program program={ prog }/>
+      </section>
     </div>
   );
 }
 
-export default Library
+export default Library;
